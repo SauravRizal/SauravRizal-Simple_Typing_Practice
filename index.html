@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Typing Speed Test</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Typing Speed Test</h1>
+    <div class="stats">
+      <div>⏱ Time: <span id="timer">60</span>s</div>
+      <div>⚡ WPM: <span id="wpm">0</span></div>
+      <div>🎯 Accuracy: <span id="accuracy">100</span>%</div>
+    </div>
+    <div class="word-area" id="word-area"></div>
+    <input type="text" id="input" placeholder="Start typing..." disabled />
+    <button id="start-btn">Start Test</button>
+    <div id="result" class="hidden">
+      <h2>⏱ Test Finished!</h2>
+      <p>WPM: <span id="final-wpm">0</span></p>
+      <p>Accuracy: <span id="final-accuracy">0</span>%</p>
+      <button onclick="window.location.reload()">Restart</button>
+    </div>
+    <footer>Developed by <strong>SauravRizal Aka CyberXriz</strong></footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- 🔐 Original code developed by SauravRizal Aka CyberXriz | GitHub: https://github.com/SauravRizal -->
